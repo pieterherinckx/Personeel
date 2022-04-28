@@ -12,7 +12,7 @@ public class Personeel
     public Personeel(){
         this.leden = new ArrayList<Personeelslid>();
         Bediende bediende = new Bediende("Jan", 2000);
-        Arbeider arbeider = new Arbeider("Piet", 20);
+        Arbeider arbeider = new Arbeider("Piet", 10);
         arbeider.werk(150);
         leden.add(bediende);
         leden.add(arbeider);
