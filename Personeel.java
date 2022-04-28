@@ -19,8 +19,8 @@ public class Personeel
     }
     
     public void betaalDag(){
-        for(Personeelslid p: leden){
-            System.out.println(p.getNaam() + ": € " + p.getLoon());
+        for(Personeelslid lid: leden){
+            System.out.println(lid.getNaam() + ": € " + lid.getLoon());
         }
     }
 }
