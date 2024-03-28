@@ -1,21 +1,25 @@
 import java.util.ArrayList;
 /**
- * Write a description of class Personeel here.
+ * class Personeel - geef hier een beschrijving van deze class
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (jouw naam)
+ * @version (versie nummer of datum)
  */
 public class Personeel
 {
     private ArrayList<Personeelslid> leden;
- 
+    
     public Personeel(){
-        this.leden = new ArrayList<Personeelslid>();
+        this.leden = new ArrayList<>();
         Bediende bediende = new Bediende("Jan", 2000);
-        Arbeider arbeider = new Arbeider("Piet", 10);
-        arbeider.werk(150);
         leden.add(bediende);
+        Arbeider arbeider = new Arbeider("Piet",15);
+        arbeider.werken(10);
         leden.add(arbeider);
+    }
+    
+    public void voegPersoneelslidToe(Personeelslid lid){
+        leden.add(lid);
     }
     
     public void betaalDag(){
