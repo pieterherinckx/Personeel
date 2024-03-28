@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Arbeider here.
+ * class Arbeider - geef hier een beschrijving van deze class
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (jouw naam)
+ * @version (versie nummer of datum)
  */
 public class Arbeider extends Personeelslid
 {
@@ -16,8 +16,8 @@ public class Arbeider extends Personeelslid
         this.aantalUren = 0;
     }
     
-    public void werk(int uren){
-        aantalUren += uren; //zelfde als aantalUren = aantalUren + uren;
+    public void werken(int uren){
+        aantalUren += uren;
     }
     
     public int getLoon(){
