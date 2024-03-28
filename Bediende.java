@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Bediende here.
+ * class Bediende - geef hier een beschrijving van deze class
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (jouw naam)
+ * @version (versie nummer of datum)
  */
 public class Bediende extends Personeelslid
 {
