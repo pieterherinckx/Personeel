@@ -1,9 +1,8 @@
-
 /**
- * Write a description of class Personeelslid here.
+ * class Personeelslid - geef hier een beschrijving van deze class
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (jouw naam)
+ * @version (versie nummer of datum)
  */
 public class Personeelslid
 {
@@ -15,6 +14,10 @@ public class Personeelslid
     
     public String getNaam(){
         return naam;
+    }
+    
+    public void setNaam(String naam){
+        this.naam = naam;
     }
     
     public int getLoon(){
